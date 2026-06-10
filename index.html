@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portofolio</title>
+<link rel="stylesheet" href="asset.css">
+</head>
+
+  </head>
+    <body>
+      <main>
+        <div class="survey">
+        <h1 id="title"> Survey Form: Student/Professor</h1>
+ <p id="description">Please complete this Form about our Camp!</p>
+        <hr>
+  <form id="survey-form">
+<section id="enter-data">
+<label id="name-label"for="name">Name: <input type="text"placeholder="Enter Name"id="name"required/></label>
+
+
+<label id="email-label"for="email">Email: <input type="email"placeholder="Enter Email"id="email"required/></label>
+
+
+<label id="number-label"for="age"> Age: <input type="number"placeholder="Enter Age"id="number"min="18" max="100" required /></label>
+</section>
+<hr>
+  <section id="selection"><label for="dropdown">Are you a Student or a Professor: </label>
+
+<select id="dropdown">
+  <option value="">Select Option</option>
+  <option value="1">Student</option>
+  <option value="2">Professor</option>
+  </select>
+ </section>
+ 
+ <section id="radio1">
+   <legend>Choose your Experience: </legend>
+<label>Senior <input type="radio"name="experience"value="senior"checked/></label>
+<label>Junior <input type="radio"name="experience"value="junior"/></label>
+</section>
+
+<section id="radio2">
+<legend> How much you like our Camps? </legend>
+<label>Very much! <input type="radio"name="enjoy"value="very-much"checked/></label>
+<label>Not much! <input type="radio"name="enjoy"value="not-much"/></label>
+</section>
+<section id="checkbox">
+  <legend>Education/Employment:</legend>
+  <label for="check1"><input type="checkbox"value="1"id="check1"/>Academic Enrichment</Label>
+  <label for="check2"><input type="checkbox"value="2"id="check2"/>Sports Skill Development</Label>
+  <label for="check3"><input type="checkbox"value="3"id="check3"/>Leadership Training</Label>
+  </section>
+  <hr>
+  <section id="comment">
+  <legend>Comment about Our Camp!</legend>
+    <label>
+      
+      <textarea placeholder="Write a Comment"></textarea>
+    </label>
+    </section>
+  <input type="submit" id="submit">
+  </form>
+  </div>
+ </main> <footer>This is just a demo</footer>
+   </body>
+  </html>
